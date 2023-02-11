@@ -39,7 +39,7 @@
                 <i class="fa-solid fa-phone"></i>
                 <p class=" nav-name">CONTACTS</p>
             </a>
-            <a id="resume-button-1" href="" class="nav-link resume" onclick="window.open(`https://drive.google.com/file/d/1rECL7KJFC1-2hGxOBOBvwORNaAp_T0aj/view?usp=sharing`)" download href="Resources/Shubham_Rasam_Resume.pdf">
+            <a id="resume-link-1" href="" class="nav-link resume" onclick="window.open(`https://drive.google.com/file/d/1rECL7KJFC1-2hGxOBOBvwORNaAp_T0aj/view?usp=sharing`)" download href="Resources/Shubham_Rasam_Resume.pdf">
                 <i class="fa-solid fa-file-arrow-down"></i>
                 <p class=" nav-name">RESUME</p>
             </a>
@@ -56,13 +56,13 @@
                             <h1>Shubham Rasam</h1>
                             <h3>Java Backend Developer...</h3>
                             <div id="resume-button-2" class="btn-pack">
-                                <a class="resume-btn"
+                                <a id="resume-link-2" class="resume-btn"
                                     onclick="window.open(`https://drive.google.com/file/d/1rECL7KJFC1-2hGxOBOBvwORNaAp_T0aj/view?usp=sharing`)"
                                     download href="Resources/Shubham_Rasam_Resume.pdf"><span>Resume</span>
                                 </a>
-                                <div id="contact-github">
-                                        <i  class="fa-brands fa-github"></i>
-                                        <i  class="fa-brands fa-linkedin"></i>
+                                <div >
+                                        <i id="contact-github" class="fa-brands fa-github"></i>
+                                        <i id="contact-linkedin" class="fa-brands fa-linkedin"></i>
                                 </div>
                             </div>
                            
@@ -142,38 +142,38 @@
                     <div>
                         <div>
                             <div>
-                                <img src="Resources/html_logo.png" />
-                                <p>HTML</p>
+                                <img  class="skills-card-img" src="Resources/html_logo.png" />
+                                <p class="skills-card-name">HTML</p>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="Resources/css.png" />
-                                <p>CSS</p>
+                                <img class="skills-card-img" src="Resources/css.png" />
+                                <p class="skills-card-name">CSS</p>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="Resources/javascript.png" />
-                                <p>JavaScript</p>
+                                <img  class="skills-card-img" src="Resources/javascript.png" />
+                                <p class="skills-card-name">JavaScript</p>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="Resources/java.png" />
-                                <p>Java</p>
+                                <img class="skills-card-img" src="Resources/java.png" />
+                                <p class="skills-card-name">Java</p>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="Resources/hibernate" />
-                                <p>Hibernate</p>
+                                <img class="skills-card-img" src="Resources/hibernate" />
+                                <p class="skills-card-name">Hibernate</p>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="Resources/sb.png" />
-                                <p>Spring Boot</p>
+                                <img class="skills-card-img" src="Resources/sb.png" />
+                                <p class="skills-card-name">Spring Boot</p>
                             </div>
                         </div>
 
@@ -186,32 +186,32 @@
                     <div>
                         <div>
                             <div>
-                                <img src="Resources/vscode-logo.png" />
-                                <p>VS Code</p>
+                                <img class="skills-card-img" src="Resources/vscode-logo.png" />
+                                <p class="skills-card-name">VS Code</p>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="Resources/github.png" />
-                                <p>GitHub</p>
+                                <img class="skills-card-img" src="Resources/github.png" />
+                                <p class="skills-card-name">GitHub</p>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="Resources/mysql.png" />
-                                <p>MySQL</p>
+                                <img class="skills-card-img" src="Resources/mysql.png" />
+                                <p class="skills-card-name">MySQL</p>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="Resources/postman-logo" />
-                                <p>Postman</p>
+                                <img class="skills-card-img" src="Resources/postman-logo" />
+                                <p class="skills-card-name">Postman</p>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="Resources/spring-logo.png" />
-                                <p>STS</p>
+                                <img class="skills-card-img" src="Resources/spring-logo.png" />
+                                <p class="skills-card-name">STS</p>
                             </div>
                         </div>
                            
@@ -229,23 +229,23 @@
        <div class="all-projects">
          <div>
             <div class="single-project project-card">
-                <h1>Tour Advisor Website Clone</h1>
+                <h1 class="project-title" >Tour Advisor Website Clone</h1>
                 <div class="project-img "><img src="Resources/TourAdvisor.png"/></div>
-                <p>It is a clone of TripAdvisor, the world's largest travel guidance platform.</p>
+                <p class="project-description">It is a clone of TripAdvisor, the world's largest travel guidance platform.</p>
                 <!-- <ul style="list-style-type:disc">Features:
                     <li>Valid Sign-up and Login</li>
                     <li>Users can book a Trip</li>
                     <li>Responsive</li>
                 </ul> -->
                   
-                <h5>Tech Stack: HTML | CSS | JavaScript</h5>
+                <h5  class="project-tech-stack" >Tech Stack: HTML | CSS | JavaScript</h5>
                 <p>Individual Project built  in 4 Days.</p>
-                <div><button>GitHub</button><button>Live Demo</button></div>
+                <div><button class="project-github-link" >GitHub</button><button  class="project-deployed-link">Live Demo</button></div>
             </div>
             <div class="single-project project-card">
-                <h1>Tour Advisor Website Clone</h1>
+                <h1 class="project-title">Tour Advisor Website Clone</h1>
                 <div class="project-img"><img src="Resources/TourAdvisor.png"/></div>
-                <p>It is a clone of TripAdvisor, the world's largest travel guidance platform.</p>
+                <p class="project-description">It is a clone of TripAdvisor, the world's largest travel guidance platform.</p>
                 <!-- <ul style="list-style-type:disc">
                     <li>Features:</li>
                     <li>Valid Sign-up and Login</li>
@@ -253,16 +253,16 @@
                     <li>Responsive</li>
                 </ul> -->
                   
-                <h5>Tech Stack: HTML | CSS | JavaScript</h5>
+                <h5  class="project-tech-stack" >Tech Stack: HTML | CSS | JavaScript</h5>
                 <p>Individual Project built  in 4 Days.</p>
-                <div><button>GitHub</button><button>Live Demo</button></div>
+                <div><button class="project-github-link">GitHub</button><button  class="project-deployed-link">Live Demo</button></div>
             </div>
         </div>
         <div>
             <div class="single-project project-card">
-                <h1>Tour Advisor Website Clone</h1>
+                <h1 class="project-title">Tour Advisor Website Clone</h1>
                 <div class="project-img "><img src="Resources/TourAdvisor.png"/></div>
-                <p>It is a clone of TripAdvisor, the world's largest travel guidance platform.</p>
+                <p class="project-description">It is a clone of TripAdvisor, the world's largest travel guidance platform.</p>
                 <!-- <ul style="list-style-type:disc">
                     <li>Features:</li>
                     <li>Valid Sign-up and Login</li>
@@ -270,14 +270,14 @@
                     <li>Responsive</li>
                 </ul> -->
                   
-                <h5>Tech Stack: HTML | CSS | JavaScript</h5>
+                <h5  class="project-tech-stack">Tech Stack: HTML | CSS | JavaScript</h5>
                 <p>Individual Project built  in 4 Days.</p>
-                <div><button>GitHub</button><button>Live Demo</button></div>
+                <div><button class="project-github-link">GitHub</button><button  class="project-deployed-link">Live Demo</button></div>
             </div>
             <div class="single-project project-card">
-                <h1>Tour Advisor Website Clone</h1>
+                <h1 class="project-title">Tour Advisor Website Clone</h1>
                 <div class="project-img "><img src="Resources/TourAdvisor.png"/></div>
-                <p>It is a clone of TripAdvisor, the world's largest travel guidance platform.</p>
+                <p class="project-description" >It is a clone of TripAdvisor, the world's largest travel guidance platform.</p>
                 <!-- <ul style="list-style-type:disc">
                     <li>Features:</li>
                     <li>Valid Sign-up and Login</li>
@@ -285,9 +285,9 @@
                     <li>Responsive</li>
                 </ul> -->
                   
-                <h5>Tech Stack: HTML | CSS | JavaScript</h5>
+                <h5  class="project-tech-stack">Tech Stack: HTML | CSS | JavaScript</h5>
                 <p>Individual Project built  in 4 Days.</p>
-                <div><button>GitHub</button><button>Live Demo</button></div>
+                <div><button class="project-github-link" >GitHub</button><button  class="project-deployed-link">Live Demo</button></div>
             </div>
         
          </div>
@@ -317,10 +317,9 @@
             <div>
                 <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=shubhamrasam&show_icons=true&theme=merko">
                 
-                <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=shubhamrasam&theme=merko&hide_border=false">
+                <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=shubhamrasam&theme=merko&hide_border=false">
             </div>
             <div>
-                <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=shubhamrasam&theme=merko&hide_border=false"> -->
                 <img id="github-top-langs"src="https://github-readme-stats.vercel.app/api/top-langs/?username=shubhamrasam&layout=compact&theme=merko">
             </div>
             
