@@ -103,7 +103,7 @@ body{
     display:flex;
     justify-content: space-evenly;
     height:80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .details-div{
@@ -120,7 +120,7 @@ body{
     margin-left: -40px;
     display: flex;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: flex-start;
     padding-top:50px;
 }
@@ -369,7 +369,7 @@ body{
 }
 
 .my-details>div:last-child{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width:60%;
     display: flex;
     flex-direction: column;
@@ -379,7 +379,7 @@ body{
 }
 
 #user-detail-name{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color:rgb(255, 255, 255);
     /* margin-bottom: 10px; */
     font-size: 25px;
@@ -387,7 +387,7 @@ body{
 
 #user-detail-intro{
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 16px;
     color:rgb(255, 255, 255);
     text-align: center;
@@ -416,7 +416,7 @@ body{
 
 .past-info{
     margin: 15px;
-    border:1px solid white;
+    /* border:1px solid white; */
     display: flex;
     justify-content: space-evenly;
     width:80%
