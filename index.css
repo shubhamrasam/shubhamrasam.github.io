@@ -823,9 +823,10 @@ hr{
 }
 .icons-footer>i{
     border:1px solid white;
-    padding:5px;
+    padding:7px;
     background-color: white;
     cursor: pointer;
+    border-radius: 50%;
 }
 
 .icons-footer>i:hover{
