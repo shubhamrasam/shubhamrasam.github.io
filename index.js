@@ -25,4 +25,26 @@
      
 // }
 
+let githubBtn = document.querySelector(".fa-github");
 
+githubBtn.addEventListener('click',function(){
+    
+    window.location.href = 'https://github.com/shubhamrasam';
+
+})
+
+let linkedinBtn = document.querySelector(".fa-linkedin");
+
+linkedinBtn.addEventListener('click',function(){
+    
+    window.location.href = 'https://linkedin.com/in/shubhamrasam24';
+
+})
+
+let contactBtn = document.querySelector("#contact-btn");
+
+contactBtn.addEventListener('click',function(){
+    
+    window.location.href = '#contact';
+
+})
