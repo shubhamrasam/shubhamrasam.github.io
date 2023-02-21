@@ -40,7 +40,7 @@
 // })
 
 
-let githubBtn = document.querySelector(".fa-github");
+let githubBtn = document.querySelector("#contact-github");
 
 githubBtn.addEventListener('click',function(){
     
