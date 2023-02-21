@@ -66,16 +66,16 @@ contactBtn.addEventListener('click',function(){
 
 
 
-function openside() {
-    document.querySelector("#side-window").style.width = "250px";
-  }
+// function openside() {
+//     document.querySelector("#side-window").style.width = "250px";
+//   }
   
-  function closeside() {
-    document.querySelector("#side-window").style.width = "0";
-  }
+//   function closeside() {
+//     document.querySelector("#side-window").style.width = "0";
+//   }
   
-  let input = document.querySelector("#search-input")
-  input.addEventListener("click",function(){
-      alert("Login First")
-  })
+//   let input = document.querySelector("#search-input")
+//   input.addEventListener("click",function(){
+//       alert("Login First")
+//   })
   
