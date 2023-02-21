@@ -6,23 +6,22 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     z-index:2;
+    scroll-behavior: smooth;
 }
 
 body{
     /* background: #ECE9E6; 
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);  */
-    overflow-x:unset;
-    height: 100vh;
     background-color: #F9F8F7;
 }
 
 .container {
-    width:100%; 
+    /* width:100%;  */
     height:100%;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    overflow-y: hidden;
+    /* scroll-behavior: smooth; */
+    /* scroll-snap-type: y mandatory; */
 } 
 
 /* 
@@ -167,7 +166,7 @@ body{
     /* background-color: #F9F8F7; */
     margin-top:70px;
     width: 100%;
-    min-height: 500px;
+    /* min-height: 500px; */
     height: 80vh;
     position: relative;
     z-index: 10;
@@ -229,6 +228,7 @@ body{
     position: absolute;
     content: "";
     background-color: #F9F8F7;
+    /* border:1px solid black; */
     border-left: 2px solid #f0422f;
     width:100%;
     height:100%;
@@ -385,7 +385,7 @@ body{
 #about{
     /* position: relative; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     /* height:90vh;  */
     /* border: 1px solid black;  */
     display: flex; 
@@ -436,7 +436,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 50%;4px
     padding: 5px;
 }
 
@@ -538,8 +538,11 @@ hr{
 .skills-main>div{
     /* border:1px solid black; */
     display: flex;
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
     justify-content: space-evenly;
     width:80%;
+    background-color: #FFF1EF;
+    border-radius: 40px;
     margin:60px auto;
 }
 .skills-main>div>div{
@@ -565,11 +568,11 @@ hr{
    
 }
 .main-tech-stack >h1 , .main-tools>h1{
-    color: #f0422f;
+    color: black;
     margin:5px auto 30px;
     padding: 8px 12px;
     /* border:  2px double #f0422f; */
-    /* background-color: #F9F8F7; */
+   
     border-radius: 10px;
 }
 
@@ -579,6 +582,7 @@ hr{
 }
 .main-tech-stack > div>div>div , .main-tools > div >div>div{
     /* background-color: #ECE9E6; */
+    background-color: #F9F8F7;
     width:110px;
     height:110px; 
     /* border:1px double black; */
@@ -1450,7 +1454,7 @@ hr{
 }
 .my-details>div:first-child>div{
     background-color: #fff;
-    box-shadow: 0px 0px 4px 4px #f0422f;
+    box-shadow: 0px 0px 4px 14px #f0422f;
     width:50%;
     display: flex;
     justify-content: center;
@@ -1589,11 +1593,11 @@ hr{
    
 }
 .main-tech-stack >h1 , .main-tools>h1{
-    color: #f0422f;
+    color: black;
     margin:5px auto 30px;
     padding: 8px 12px;
     /* border:  2px double #f0422f; */
-    background-color: #F9F8F7;
+    /* background-color: #F9F8F7; */
     border-radius: 10px;
 }
 
@@ -1923,6 +1927,7 @@ hr{
 #footer > div:first-child>a{
     cursor: pointer;
     color: white;
+    text-decoration: none;
 }
 
 #footer > div:last-child{
@@ -2022,11 +2027,11 @@ hr{
    
 }
 .main-tech-stack >h1 , .main-tools>h1{
-    color: #f0422f;
+    color: black;
     margin:5px auto 30px;
     padding: 8px 12px;
     /* border:  2px double #f0422f; */
-    background-color: #F9F8F7;
+    /* background-color: #F9F8F7; */
     border-radius: 10px;
 }
 
@@ -2126,7 +2131,7 @@ hr{
     
       #nav-bar{
         /* border: 1px solid black; */
-        margin:0 20px;
+        margin-left: 20px;
         height:100%;
         width:90%;
         display: flex;
@@ -2560,11 +2565,11 @@ hr{
    
 }
 .main-tech-stack >h1 , .main-tools>h1{
-    color: #f0422f;
+    color: black;
     margin:5px auto 30px;
     padding: 8px 12px;
     /* border:  2px double #f0422f; */
-    background-color: #F9F8F7;
+    /* background-color: #F9F8F7; */
     border-radius: 10px;
 }
 
@@ -2990,11 +2995,11 @@ hr{
    
 }
 .main-tech-stack >h1 , .main-tools>h1{
-    color: #f0422f;
+    color: black;
     margin:5px auto 30px;
     padding: 8px 12px;
     /* border:  2px double #f0422f; */
-    background-color: #F9F8F7;
+    /* background-color: #F9F8F7; */
     border-radius: 10px;
 }
 
@@ -3099,7 +3104,7 @@ hr{
     
       #nav-bar{
         /* border: 1px solid black; */
-        margin:0 20px;
+        margin-left: 20px;
         height:100%;
         width:90%;
         display: flex;
@@ -3533,7 +3538,7 @@ hr{
    
 }
 .main-tech-stack >h1 , .main-tools>h1{
-    color: #f0422f;
+    color: black;
     margin:0px;
     padding: 8px 12px;
     /* border:  2px double #f0422f; */
@@ -3922,7 +3927,7 @@ hr{
 
 }
 
-@media all and (min-width:420px) and (max-width:600px){
+@media all and (min-width:220px) and (max-width:600px){
 
 
     .nav-link {
@@ -3986,7 +3991,7 @@ hr{
     
       #nav-bar{
         /* border: 1px solid black; */
-        margin:0 20px;
+        margin-left: 20px;
         height:100%;
         width:90%;
         display: flex;
@@ -4410,7 +4415,7 @@ hr{
     /* border:1px solid black; */
     width:100%;
     text-align: center;
-    grid-template-columns: repeat(3,120px);
+    grid-template-columns: repeat(2,120px);
     grid-template-rows: auto;
     gap:20px 10px;
     padding:10px 20px;
@@ -4420,7 +4425,7 @@ hr{
    
 }
 .main-tech-stack >h1 , .main-tools>h1{
-    color: #f0422f;
+    color: black;
     margin:0px;
     padding: 8px 12px;
     /* border:  2px double #f0422f; */
@@ -4808,7 +4813,7 @@ hr{
 
 }
 
-@media all and (min-width:450px) and (max-width:550px){
+@media all and (min-width:500px) and (max-width:550px){
 
 
 *-------------- SKILLS SECTION -----------------*/
@@ -4861,7 +4866,7 @@ hr{
    
 }
 .main-tech-stack >h1 , .main-tools>h1{
-    color: #f0422f;
+    color: black;
     margin:0px;
     padding: 8px 12px;
     /* border:  2px double #f0422f; */
@@ -4904,3 +4909,110 @@ hr{
 
 
 }
+
+
+
+@media all and (min-width:450px) and (max-width:500px){
+
+
+    *-------------- SKILLS SECTION -----------------*/
+    
+    #skills{
+        /* height: 100vh; */
+        text-align: center;
+        margin-top: 100px;
+       
+    }
+    #skills>h1{
+        
+        font-size: 30px;
+    
+    }
+    .skills-main{
+        /* display: none; */
+        /* border:1px solid black; */
+    }
+    .skills-main>div{
+        /* border:1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width:80%;
+        margin:60px auto;
+    }
+    .skills-main>div>div{
+        width:90%;
+        margin-top: 30px;
+        padding: 30px 20px;
+        /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
+        /* border:1px double #273036; */
+        border-radius: 30px;
+    }
+    
+    .main-tech-stack > div ,.main-tools >div {
+        display: grid;
+        /* border:1px solid black; */
+        width:90%;
+        text-align: center;
+        grid-template-columns: repeat(2,120px);
+        grid-template-rows: auto;
+        margin:10px auto;
+        gap:20px 25px;
+        padding:10px 20px;
+    }
+    .main-tech-stack , .main-tools  {
+        text-align: center;
+       
+    }
+    .main-tech-stack >h1 , .main-tools>h1{
+        color: black;
+        margin:0px;
+        padding: 8px 12px;
+        /* border:  2px double #f0422f; */
+        /* background-color: #F9F8F7; */
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    .main-tech-stack > div>div:first-child , .main-tools > div >div{
+        text-align: center;
+        /* padding-left:20px */
+    }
+    .main-tech-stack > div>div>div , .main-tools > div >div>div{
+        /* background-color: #ECE9E6; */
+        width:120px;
+        height:120px; 
+        /* border:1px double black; */
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        display:flex;
+        border-radius: 15px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px double #273036; */
+    }
+    .main-tech-stack > div>div>div>img , .main-tools >div> div >div>img{
+        width:30%;
+        padding:10px
+    }
+    .main-tech-stack > div>div>div>p , .main-tools >div> div >div>p{
+        /* background-color: #273036; */
+        color:black;
+        padding:5px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+    }
+
+
+    @media all and (min-width:420px) and (max-width:450px){
+
+
+
+
+    }
