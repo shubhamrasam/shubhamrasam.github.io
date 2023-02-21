@@ -12,7 +12,7 @@ body{
     /* background: #ECE9E6; 
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);  */
-    overflow-x:none;
+    overflow-x:unset;
     height: 100vh;
     background-color: #F9F8F7;
 }
@@ -475,6 +475,7 @@ body{
 #contact-btn{
     margin: 10px;
     font-size: 18px;
+    color:#273036;
     padding: 8px 12px;
     border-radius: 10px;
     background-color:#ECE9E6;
