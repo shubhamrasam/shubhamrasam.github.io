@@ -48,3 +48,19 @@ contactBtn.addEventListener('click',function(){
     window.location.href = '#contact';
 
 })
+
+
+
+function openside() {
+    document.querySelector("#side-window").style.width = "250px";
+  }
+  
+  function closeside() {
+    document.querySelector("#side-window").style.width = "0";
+  }
+  
+  let input = document.querySelector("#search-input")
+  input.addEventListener("click",function(){
+      alert("Login First")
+  })
+  
