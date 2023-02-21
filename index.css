@@ -12,7 +12,7 @@ body{
     /* background: #ECE9E6; 
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);  */
-    overflow:hidden;
+    overflow-x:none;
     height: 100vh;
     background-color: #F9F8F7;
 }
@@ -1736,7 +1736,8 @@ hr{
     background-color: #0A0F0B;
     padding: 20px;
     border-radius:10px ;
-    color:#ECE9E6
+    color:#ECE9E6;
+    /* font-size: 10px; */
 }
 .github-cal-div>div>div{
     /* border:1px solid red; */
@@ -3030,7 +3031,10 @@ hr{
 
 
 @media all and (min-width:320px) and (max-width:600px){
-
+     
+    body{
+        overflow-x: none;
+    }
 
     .nav-link {
 
@@ -3114,7 +3118,7 @@ hr{
     /* background-color: #F9F8F7; */
     margin-top: 70px;
     width: 100%;
-    height: 80vh;
+    height: 75vh;
     position: relative;
     z-index: 10;
 }
@@ -3562,6 +3566,7 @@ hr{
     color:black;
     padding:5px;
     font-weight: 600;
+    font-size: 12px;
 }
 
 
@@ -3915,7 +3920,7 @@ hr{
 
 }
 
-@media all and (min-width:450px) and (max-width:600px){
+@media all and (min-width:420px) and (max-width:600px){
 
 
     .nav-link {
