@@ -3034,7 +3034,7 @@ hr{
 @media all and (min-width:320px) and (max-width:600px){
      
     body{
-        overflow-x: none;
+        overflow-x:unset;
     }
 
     .nav-link {
