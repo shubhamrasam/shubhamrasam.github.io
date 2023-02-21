@@ -167,6 +167,7 @@ body{
     /* background-color: #F9F8F7; */
     margin-top:70px;
     width: 100%;
+    min-height: 500px;
     height: 80vh;
     position: relative;
     z-index: 10;

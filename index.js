@@ -65,17 +65,14 @@ contactBtn.addEventListener('click',function(){
 })
 
 
+let closeBtn = document.querySelector(".closebtn");
+let openBtn = document.querySelector(".openbtn");
 
-function openside() {
+openBtn.addEventListener("click",function(){
     document.querySelector("#side-window").style.width = "250px";
-  }
+})
   
-  function closeside() {
+closeBtn.addEventListener("click",function(){
     document.querySelector("#side-window").style.width = "0";
-  }
-  
-  let input = document.querySelector("#search-input")
-  input.addEventListener("click",function(){
-      alert("Login First")
-  })
+})
   
