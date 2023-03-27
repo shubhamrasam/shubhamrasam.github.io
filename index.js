@@ -76,3 +76,11 @@ closeBtn.addEventListener("click",function(){
     document.querySelector("#side-window").style.width = "0";
 })
   
+
+let btnform = document.querySelector("#form-submit");
+
+btnform.addEventListener('click',function(){
+
+    window.location.href = "https://shubhamrasam.github.io/"
+
+})

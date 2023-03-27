@@ -171,12 +171,12 @@ body{
     position: relative;
     z-index: 10;
 }
-
+/* change */
 #home > div{
-    padding-top:45px ;
+    /* padding-top:45px ; */
     display:flex;
     justify-content: space-evenly;
-    height:80%;
+    height:100%;
     /* border: 1px solid black; */
     /* padding:200px auto; */
 }
@@ -311,7 +311,7 @@ body{
     width: 100%;
   }
 
-
+/* change */
 .image-icon{
     /* border: 1px solid black; */
     width:45%;
@@ -4914,7 +4914,10 @@ hr{
 
 @media all and (min-width:450px) and (max-width:500px){
 
-
+     *{
+        overflow-x: none;
+     }
+     
     *-------------- SKILLS SECTION -----------------*/
     
     #skills{

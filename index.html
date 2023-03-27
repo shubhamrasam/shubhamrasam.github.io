@@ -55,9 +55,9 @@
                     <a href="#skills">SKILLS</a>
                     <a href="#projects">PROJECTS</a>
                     <a href="#contact">CONTACTS</a>
-                    <a id="resume-link-1"  target="_blank" 
+                    <button id="resume-link-1"  target="_blank" 
                     href="/Shubham_Rasam_Resume.pdf"
-                    download="Shubham_Rasam_Resume">RESUME</a>
+                    download="Shubham_Rasam_Resume">RESUME</button>
                   </div>
                 <button class="openbtn"">&#9776; </button>
             </div>
@@ -391,26 +391,30 @@
                 <div class="send-info">
 
                     <div>
-                        <div class="input-box">
-                            <p>Name</p>
-                            <input type="text" />
-                        </div>
-                        <div class="input-box">
-                            <p>Email</p>
-                            <input type="text" />
-                        </div>
-                        <div class="input-box">
-                            <p>Projects</p>
-                            <input type="text" />
-                        </div>
-                        <div class="input-box">
-                            <p>Message</p>
-                            <textarea type="text" rows="5"></textarea>
-                        </div>
-                        <div class="submit-btn">
-                            <button>Send Message</button>
-
-                        </div>
+                        <form
+                        action="https://formspree.io/f/xayzbdvw"
+                        method="POST"
+                        >
+                            <div class="input-box">
+                                <p>Name</p>
+                                <input type="text" name="name" required/>
+                            </div>
+                            <div class="input-box">
+                                <p>Email</p>
+                                <input type="email" name="email" required />
+                            </div>
+                            <div class="input-box">
+                                <p>Projects</p>
+                                <input type="text" />
+                            </div>
+                            <div class="input-box">
+                                <p>Message</p>
+                                <textarea type="text" rows="5" name="message" required ></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" id="form-submit">Send Message</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
