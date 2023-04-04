@@ -5110,7 +5110,7 @@ hr{
     }
 
 
-    @media all and (min-width:350px) and (max-width:420px){
+    @media all and (min-width:370px) and (max-width:420px){
 
         .personal-info>div>div>p{
             margin: 5px 10px;
@@ -5120,8 +5120,58 @@ hr{
     }
 
 
-    /* @media all and (min-width:320px) and (max-width:380px){
+    @media all and (min-width:320px) and (max-width:370px){
 
-      
 
-    } */
+        
+   
+
+        .main-tech-stack > div ,.main-tools >div {
+            display: grid;
+            /* border:1px solid black; */
+            width:90%;
+            text-align: center;
+            grid-template-columns: repeat(2,60px);
+            grid-template-rows: auto;
+            margin:10px auto;
+            gap:20px 50px;
+            padding:10px 20px;
+        }
+ 
+        .main-tech-stack >h1 , .main-tools>h1{
+            color: black;
+            margin:0px;
+            padding: 8px 12px;
+            /* border:  2px double #f0422f; */
+            /* background-color: #F9F8F7; */
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        .main-tech-stack > div>div>div , .main-tools > div >div>div{
+            width:80px;
+            height:80px; 
+
+        }
+        .main-tech-stack > div>div>div>img , .main-tools >div> div >div>img{
+            width:30%;
+            padding:10px
+        }
+
+
+  
+        
+        #contact-email>p{
+            font-size:12px;
+        }
+        .info-head> p{
+            font-size:12px;
+        }
+
+        .personal-info>div>div>p{
+            margin: 5px 10px;
+            font-size: 12px;
+        }
+
+
+    }
