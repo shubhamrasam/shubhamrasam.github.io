@@ -27,16 +27,14 @@
 
 document.querySelector("#resume-link-1").addEventListener("click", ()=>{
     window.open(
-      "https://drive.google.com/file/d/1rECL7KJFC1-2hGxOBOBvwORNaAp_T0aj/view?usp=sharing",
-      "_blank"
+      "https://drive.google.com/file/d/1rECL7KJFC1-2hGxOBOBvwORNaAp_T0aj/view?usp=sharing"
     );
 })
 
 function resumeDownload(){
 
     window.open(
-        "https://drive.google.com/file/d/1rECL7KJFC1-2hGxOBOBvwORNaAp_T0aj/view?usp=sharing",
-        "_blank"
+        "https://drive.google.com/file/d/1rECL7KJFC1-2hGxOBOBvwORNaAp_T0aj/view?usp=sharing"
       );
 }
 
