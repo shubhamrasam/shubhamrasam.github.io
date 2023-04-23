@@ -455,9 +455,6 @@ body{
     margin: 5px 10px ;
 }
 
-hr{
-    border: 1px solid #f0422f;
-}
 /*-------------- SKILLS SECTION -----------------*/
 
 #skills{
@@ -964,12 +961,12 @@ hr{
     }
     .single-project>p{
         text-align: center;
-        color:white;
         margin: 15px auto;
+        font-size: 14px;
     }
     .single-project>h5{
         color:white;
-        font-size: 15px;
+        font-size: 14px;
     }
     
     .single-project>div:last-child{
@@ -1278,7 +1275,7 @@ hr{
 .my-details{
     
     width:100%;
-    margin:10 auto;
+    margin:10px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -1495,6 +1492,7 @@ hr{
     text-align: center;
     color:white;
     margin: 10px auto;
+    font-size: 16px;
 }
 .single-project>h5{
     color:white;
@@ -2337,10 +2335,11 @@ hr{
     text-align: center;
     color:white;
     margin: 10px auto;
+    font-size: 14px;
 }
 .single-project>h5{
     color:white;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .project-img{
@@ -3206,6 +3205,7 @@ hr{
     text-align: center;
     color:white;
     margin: 10px auto;
+    font-size: 13px;
 }
 .single-project>h5{
     color:white;
@@ -3741,7 +3741,7 @@ hr{
     width:100%;
 }
 #about{
-    overflow: hidden;
+    overflow-x: hidden;
     width: 100%;
     height: 100%;
     display: flex; 
@@ -3960,6 +3960,7 @@ hr{
 }
 .single-project>p{
     margin: 10px auto;
+    font-size: 12px;
 }
 .single-project>h5{
     font-size: 12px;
@@ -4453,9 +4454,6 @@ hr{
             padding:10px
         }
 
-
-  
-        
         #contact-email>p{
             font-size:12px;
         }
