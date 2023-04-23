@@ -92,5 +92,66 @@ btnform.addEventListener('click',function(){
 })
 
 
+let navbarColor = document.querySelectorAll(".nav-link");
 
-  
+console.log(navbarColor);
+for(let nav of navbarColor){
+
+    nav.addEventListener("click",function(){
+    
+        let curr = document.querySelector("#nav-bar a.home");
+        curr.classList.remove('home');        
+        nav.classList.add("home");
+
+    })
+
+}
+
+function plantNurseryGithub(){
+
+    window.location.href = "https://github.com/shubhamrasam/Online-Plant-Nursery-Application";
+
+}
+
+function plantNurseryVideo(){
+
+    window.location.href = "https://drive.google.com/file/d/1XVCnEWx718Q4y331l-4mV2-329j_1H0V/view";
+
+}
+
+function busGithub(){
+
+    window.location.href = "https://github.com/shubhamrasam/Bus-Ticket-Reservation-System";
+
+}
+
+function busVideo(){
+
+    window.location.href = "https://drive.google.com/file/d/1eJrllPGWZAFCVbpIXCRH8BtwwkNbtlhG/view";
+
+}
+
+
+function stepUpGithub(){
+
+    window.location.href = "https://github.com/VaishnaviDhobale/step-up";
+
+}
+
+function stepUpLive(){
+
+    window.location.href = "https://vaishnavidhobale.github.io/step-up/";
+
+}
+
+function tourGithub(){
+
+    window.location.href = "https://github.com/shubhamrasam/Tour-Advisor";
+
+}
+
+function tourLive(){
+
+    window.location.href = "https://tour-advisor12.netlify.app/index.html";
+
+}
