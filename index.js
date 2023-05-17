@@ -50,7 +50,10 @@ let githubBtn = document.querySelector("#contact-github");
 
 githubBtn.addEventListener('click',function(){
     
-    window.location.href = 'https://github.com/shubhamrasam';
+    window.open(
+        "https://github.com/shubhamrasam",
+        "_blank"
+      );
 
 })
 
@@ -58,7 +61,10 @@ let linkedinBtn = document.querySelector(".fa-linkedin");
 
 linkedinBtn.addEventListener('click',function(){
     
-    window.location.href = 'https://linkedin.com/in/shubhamrasam24';
+    window.open(
+        "https://linkedin.com/in/shubhamrasam24",
+        "_blank"
+      );
 
 })
 
@@ -66,15 +72,22 @@ let githubBtn2 = document.querySelector("#footer-github");
 
 githubBtn2.addEventListener('click',function(){
     
-    window.location.href = 'https://github.com/shubhamrasam';
+    window.open(
+        "https://github.com/shubhamrasam",
+        "_blank"
+      );
+
 
 })
 
 let linkedinBtn2 = document.querySelector("#footer-linkedin");
 
 linkedinBtn2.addEventListener('click',function(){
-    
-    window.location.href = 'https://linkedin.com/in/shubhamrasam24';
+
+    window.open(
+        "https://linkedin.com/in/shubhamrasam24",
+        "_blank"
+      );
 
 })
 
@@ -86,6 +99,9 @@ contactBtn.addEventListener('click',function(){
     window.location.href = '#contact';
 
 })
+
+
+
 
 
 let closeBtn = document.querySelector(".closebtn");
