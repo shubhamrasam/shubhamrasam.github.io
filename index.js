@@ -62,6 +62,23 @@ linkedinBtn.addEventListener('click',function(){
 
 })
 
+let githubBtn2 = document.querySelector("#footer-github");
+
+githubBtn2.addEventListener('click',function(){
+    
+    window.location.href = 'https://github.com/shubhamrasam';
+
+})
+
+let linkedinBtn2 = document.querySelector("#footer-linkedin");
+
+linkedinBtn2.addEventListener('click',function(){
+    
+    window.location.href = 'https://linkedin.com/in/shubhamrasam24';
+
+})
+
+
 let contactBtn = document.querySelector("#contact-btn");
 
 contactBtn.addEventListener('click',function(){
